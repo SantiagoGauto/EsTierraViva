@@ -1,0 +1,703 @@
+.navbar {
+    --bs-navbar-padding-y: 0rem !important;
+    position: fixed !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    top: 0 !important;
+    z-index: 9999 !important;
+    background-color: #5EA335 !important;
+    text-shadow: 0px 3px 4px #00000052 !important;
+    height: 45px !important;
+    line-height: 0px !important;
+}
+
+.tierraviva{
+    letter-spacing: 3px
+}
+
+.custom-container {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+.navbar-brand {
+    margin-left: -20px; /* Move the brand 20px to the left */
+}
+
+.navbar-nav {
+    margin-right: -20px; /* Move the nav links 20px to the right */
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* MAIN */
+
+.fondo {
+    background-image: url('imagen/fondo.jpg');
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+}
+
+.logo-container {
+    position: relative;
+    bottom: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.logo-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tierravivatext {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem !important;
+    color: #5EA335 !important;
+    text-shadow: 0px 2px 0px #26520b69;
+    margin: 0px;
+}
+
+.bio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 10px 25px;
+    margin: 0px;
+}
+
+.bio_margin {
+    margin-bottom: 20px;
+}
+
+.fondodetexto {
+    background-color: #273a1f;
+}
+
+
+
+.titulorosa {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem !important;
+    color: #C188C1 !important;
+    text-shadow: 0px 2px 5px #00000094;
+}
+
+.textoblanco {
+    font-family: "Roboto", sans-serif;
+    color: #fff !important;
+    text-shadow: 0px 2px 5px #00000094;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.titulorosa2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem !important;
+    color: #C188C1 !important;
+}
+
+.textonegro {
+    font-family: "Roboto", sans-serif;
+    color: #000000 !important;
+}
+
+
+
+.imagenesfondo1 {
+    box-shadow: -6px 6px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 60px 60px 10px 60px;
+}
+
+.imagenesfondo2 {
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 60px 60px 60px 10px;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-pink-600 {
+    color: #db2777;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.text-light {
+    color: #f8f9fa;
+}
+
+.seccion4 {
+    padding: 2rem;
+}
+
+/* video youtube */
+
+.youtube {
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.aspect-h-9 {
+    padding-top: calc(80% / (16 / 9));
+}
+
+.aspect-w-16 {
+    position: relative;
+    width: 100%;
+    padding-top: none;
+}
+
+.rounded-lg {
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+.dark .bg-zinc-800 {
+    background-color: #292524;
+}
+
+.grid {
+    display: grid;
+}
+
+.md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-8 {
+    gap: 2rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-pink-600 {
+    color: #db2777;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.dark .bg-zinc-900 {
+    background-color: #1c1917;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.max-w-2xl {
+    max-width: 42rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space-y-4 > :not(template) ~ :not(template) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.input, textarea, button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.bg-red-600 {
+    background-color: #dc2626;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-zinc-700 {
+    background-color: #3f3f46;
+}
+
+.bg-red-700 {
+    background-color: #b91c1c;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* contactos */
+
+.contacto {
+    font-family: "Roboto", sans-serif;
+    color: #fff !important;
+}
+
+.redes {
+    font-family: "Roboto", sans-serif;
+    color: #fff !important;
+}
+
+.redes_iconos{
+    font-family: "Roboto", sans-serif;
+}
+
+.contenedor_contacto {
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.form-control {
+    background-color: #858585 !important;
+    border: #858585 !important;
+}
+
+.btn-danger {
+    --bs-btn-bg: #A41B11 !important;
+    --bs-btn-border-color: #A41B11 !important;
+}
+
+.mb-4 {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 0.75rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.bg-zinc-900 {
+    background-color: #232323;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-zinc-700 {
+    background-color: #3f3f46;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mx-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.space-x-4 > * + * {
+    margin-left: 1rem;
+}
+
+.space-x-4 > *:first-child {
+    margin-left: 0;
+}
+
+/* footer */
+
+.row_footer {
+    margin-right: calc(-.0* var(--bs-gutter-x)) !important;
+    margin-left: calc(-.0* var(--bs-gutter-x)) !important;
+}
+
+.row {
+    margin-bottom: 0px !important;
+    margin-right: calc(-.0* var(--bs-gutter-x));
+    margin-left: calc(-.0* var(--bs-gutter-x));
+}
+
+#donate-section {
+    background-image: url('imagen/donarfondo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.donate-button {
+    display: inline-block;
+}
+
+.donate-button .donate-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid white;  /* Adjust border as needed */
+    border-radius: 50%;  /* Make the image circular */
+    transition: transform 0.3s;
+}
+
+.donate-button:hover .donate-image {
+    transform: scale(1.1);  /* Slight zoom on hover */
+}
+
+/* Adjust text styles as needed */
+.text-white {
+    color: #fff;
+}
+
+.apoya {
+    font-size: 2rem;  /* Adjust font size as needed */
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding-top: 40px;
+
+}
+
+.texto_donacion {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+/* retiros */
+
+.titulo_retiros {
+    font-size: 40px;
+    color: #c3716b;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.galeria img {
+    box-shadow: 0px 4px 3px 0px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+}
+
+.col {
+    flex: 20%;
+}
+
+#materialbox-overlay {
+    background-color: #29292996;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.galeria .col {
+    margin-bottom: 20px;
+}
+
+.hidden-images {
+    display: none;
+}
+
+.btn {
+    background-color: #c3716b;
+    color: white;
+    border: none;
+    padding: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.btn:hover {
+    background-color: #b35a56;
+}
+
+@media screen and (max-width: 600px){
+    .materialbox-caption {
+        width: 90%;
+        
+    }
+
+    .col {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption {
+        width: 70%;
+    }
+}
+
+/* quienes somos */
+
+.texto_quienes {
+    font-family: 'Bebas Neue', cursive;
+    color: #c3716b;
+    margin: 16px;
+    text-align: center;
+}
+
+.texto_quienessomos {
+    font-size: 40px;
+}
+
+.texto_somos {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin: 0px;
+    padding: 0px 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-left {
+    flex-direction: row;
+}
+
+.profile-right {
+    flex-direction: row-reverse;
+}
+
+.profile-image_1 {
+    background-image: linear-gradient(90deg, #7ac54e 0%, #ffffff 100%);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image_1::before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: url(/imagen/matias.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-image_2 {
+    background-image: linear-gradient(270deg, #7ac54e 0%, #ffffff 100%);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image_2::before {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: url(/imagen/araceli.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+.profile-text {
+    width: 50%;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.profile-text h2 {
+    margin-bottom: 10px;
+}
+
+.profile-text p {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .profile {
+    flex-direction: column;
+    }
+
+    .profile-left, .profile-right {
+    flex-direction: column;
+    }
+
+    .profile-image_1, .profile-text {
+    width: 100%;
+    }
+
+    .profile-image_1 {
+    height: 200px;
+    }
+
+    .profile-image_1::before {
+    width: 100px;
+    height: 100px;
+    }
+
+    /* navbar */
+
+    .custom-container {
+        padding-right: 5px !important;
+        padding-left: 25px !important;
+    }
+
+    /* biografia tierra viva */
+
+    .bio {
+        font-size: 16px;
+    }
+
+    /* ¿que nos ispira? */
+
+    .titulorosa {
+        font-size: 1.4rem !important;
+    }
+
+    .textoblanco {
+        font-size: 14px;
+    }
+
+    .imagenesfondo1 {
+        border-radius: 20px;
+        box-shadow: none;
+    }
+
+    .imagenesfondo2 {
+        border-radius: 20px;
+        box-shadow: none;
+    }
+
+    .row_vision {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* ¿que hacemos? ¿como lo hacemos? */
+
+    .grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /* youtube */
+
+    .youtube {
+        padding: 0px 10px;
+    }
+
+    /* retiros */
+
+    .titulo_retiros {
+        font-size: 26px;
+        margin-top: 10px;
+    }
+
+    .profile-image_2, .profile-text {
+        width: 100%;
+        }
+    
+        .profile-image_2 {
+        height: 200px;
+        }
+    
+        .profile-image_2::before {
+        width: 100px;
+        height: 100px;
+        }
+}
