@@ -652,6 +652,104 @@ iframe {
     margin-bottom: 10px;
 }
 
+/* footer */
+
+.footer_color {
+    background-color: #210200;
+}
+
+.footer_padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_p {
+    margin: 0px !important;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+}
+
+/*########################################## Eventos ##########################################*/
+
+.portada-eventos {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../imagen/eventosfondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px 0px 95px 0px;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+.portada-texto {
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.max-w-4xl {
+    max-width: 100rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.eventos-titulo {
+    text-align: center;
+    color: #16a34a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.eventos-separador {
+    border-top: 1px solid #000000;
+    margin-bottom: 2rem;
+}
+
+/*########################################## Biblioteca ##########################################*/
+
+.portada-biblioteca {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../imagen/bibliotecafondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px 0px 95px 0px;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+/*########################################## Propuestas ##########################################*/
+
+.portada-propuestas {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../imagen/propuestasfondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px 0px 95px 0px;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
 /* ==========================media========================== */
 
 @media screen and (max-width: 1200px) {
