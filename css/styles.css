@@ -97,8 +97,6 @@ nav ul a {
     background-color: #273a1f;
 }
 
-
-
 .titulorosa {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.8rem !important;
@@ -125,15 +123,13 @@ nav ul a {
     color: #000000 !important;
 }
 
-
-
 .imagenesfondo1 {
-    box-shadow: -6px 6px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2);
     border-radius: 60px 60px 10px 60px;
 }
 
 .imagenesfondo2 {
-    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     border-radius: 60px 60px 60px 10px;
 }
 
@@ -176,11 +172,6 @@ nav ul a {
 .rounded-lg {
     border-radius: 2rem;
 }
-
-
-
-
-
 
 .dark .bg-zinc-800 {
     background-color: #292524;
@@ -692,6 +683,10 @@ iframe {
     margin: 0px;
 }
 
+.padding_eventos {
+    padding: 15px 0px 0px 0px !important;
+}
+
 .max-w-4xl {
     max-width: 100rem;
 }
@@ -713,9 +708,37 @@ iframe {
     margin-bottom: 1rem;
 }
 
+.card {
+    --bs-card-border-width: none !important;
+    border-radius: 20px !important;
+    box-shadow: #00000026 0px 8px 10px 0px;
+}
+
+.rounded-start {
+    border-radius: 20px 0px 0px 20px !important;
+}
+
 .eventos-separador {
     border-top: 1px solid #000000;
     margin-bottom: 2rem;
+}
+
+.titulo_eventos {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fecha_eventos {
+    font-family: "Roboto", sans-serif;
+}
+
+.biografia_eventos {
+    font-family: "Roboto", sans-serif;
+}
+
+.no-eventos {
+    color: #6c757d;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
 }
 
 /*########################################## Biblioteca ##########################################*/
@@ -752,19 +775,24 @@ iframe {
 
 /* ==========================media========================== */
 
+/*---------------max-width: 1200px---------------*/
+
 @media screen and (max-width: 1200px) {
+    
     /* ¿que nos ispira? */
+        .titulorosa {
+            font-size: 1.4rem !important;
+        }
 
-    .titulorosa {
-        font-size: 1.4rem !important;
-    }
-
-    .textoblanco {
-        font-size: 14px;
-    }
+        .textoblanco {
+            font-size: 14px;
+        }
 }
 
+/*---------------max-width: 992px---------------*/
+
 @media screen and (max-width: 992px){
+
         .materialbox-caption {
             width: 70%;
         }
@@ -811,73 +839,75 @@ iframe {
         }
 }
 
+/*---------------max-width: 767px---------------*/
+
 @media (max-width: 767px) {
 
-    /* biografia tierra viva */
+        /* biografia tierra viva */
 
-    .bio {
-        font-size: 15px;
-    }
+        .bio {
+            font-size: 15px;
+        }
 
-    /* ¿que nos ispira? */
+        /* ¿que nos ispira? */
 
-    .titulorosa {
-        font-size: 1.4rem !important;
-    }
+        .titulorosa {
+            font-size: 1.4rem !important;
+        }
 
-    .textoblanco {
-        font-size: 14px;
-    }
+        .textoblanco {
+            font-size: 14px;
+        }
 
-    .imagenesfondo1 {
-        border-radius: 20px;
-        box-shadow: none;
-    }
+        .imagenesfondo1 {
+            border-radius: 20px;
+            box-shadow: none;
+        }
 
-    .imagenesfondo2 {
-        border-radius: 20px;
-        box-shadow: none;
-    }
+        .imagenesfondo2 {
+            border-radius: 20px;
+            box-shadow: none;
+        }
 
-    .row_vision {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+        .row_vision {
+            display: flex;
+            flex-direction: column-reverse;
+        }
 
-    /* ¿que hacemos? ¿como lo hacemos? */
+        /* ¿que hacemos? ¿como lo hacemos? */
 
-    .seccion4 {
-        padding: 1rem;
-    }
+        .seccion4 {
+            padding: 1rem;
+        }
 
-    .textonegro {
-        margin: 8px 0px !important;
-    }
+        .textonegro {
+            margin: 8px 0px !important;
+        }
 
-    .grid {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+        .grid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
 
-    /* youtube */
+        /* youtube */
 
-    .youtube {
-        padding: 0px 10px;
-    }
+        .youtube {
+            padding: 0px 10px;
+        }
 
-    .aspect-h-9 {
-        padding-top: calc(100% /(13 / 8));
-    }
+        .aspect-h-9 {
+            padding-top: calc(100% /(13 / 8));
+        }
 
-    /* retiros */
+        /* retiros */
 
-    .titulo_retiros {
-        font-size: 26px;
-        margin-top: 10px;
-    }
+        .titulo_retiros {
+            font-size: 26px;
+            margin-top: 10px;
+        }
 
-    /* quienes somos */
+        /* quienes somos */
         .profile {
         flex-direction: column;
         }
@@ -912,37 +942,47 @@ iframe {
         height: 160px;
         }
 
-    .texto_quienessomos {
-        font-size: 26px;
-        margin-top: 10px;
-    }
+        .texto_quienessomos {
+            font-size: 26px;
+            margin-top: 10px;
+        }
 
-    .texto_somos {
-        font-size: 14px;
-    }
+        .texto_somos {
+            font-size: 14px;
+        }
 
-    /* donacion */
+        /* donacion */
 
-    .apoya {
-        font-size: 22px;
-        padding-top: 20px;
-        text-align: center;
-    }
+        .apoya {
+            font-size: 22px;
+            padding-top: 20px;
+            text-align: center;
+        }
 
-    .texto_donacion {
-        font-size: 14px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+        .texto_donacion {
+            font-size: 14px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* -----eventos----- */
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    
 }
 
-@media screen and (max-width: 600px){
-    .materialbox-caption {
-        width: 90%;
-        
-    }
+/*---------------max-width: 600px---------------*/
 
-    .col {
-        flex: 50%;
-    }
+@media screen and (max-width: 600px){
+
+        .materialbox-caption {
+            width: 90%;
+        }
+
+        .col {
+            flex: 50%;
+        }
 }
