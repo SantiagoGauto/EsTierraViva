@@ -743,6 +743,18 @@ iframe {
 
 /*########################################## Biblioteca ##########################################*/
 
+.biblioteca-titulos {
+    padding-top: 7px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #175A15;
+    letter-spacing: 1px;
+}
+
+.fondo-bibliotecas {
+    background-color: #E5EEE4;
+}
+
 .portada-biblioteca {
     font-family: 'Bebas Neue', cursive;
     width: 100%;
@@ -756,6 +768,52 @@ iframe {
     color: #ffffff;
     letter-spacing: 5px;
 }
+
+.card-pdf {
+    --bs-card-border-width: var(--bs-border-width) !important;
+    border-radius: var(--bs-card-border-radius) !important;
+    margin: 0px !important;
+    padding-bottom: 10px;
+    background-color: #3c4c3c;
+}
+
+.card-header {
+    padding: 0.5rem 1rem;
+}
+
+.pdf-icon{
+    color: #EA4335;
+}
+
+.download-cloud {
+    color: #ffffff;
+}
+
+.card-title {
+    color: #ffffff;
+    flex-grow: 1;
+    margin: 0 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 4rem);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.my-5 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.col-pdf {
+    margin-top: 0px !important;
+    padding: 0 .7rem !important;
+}
+
 
 /*########################################## Propuestas ##########################################*/
 
