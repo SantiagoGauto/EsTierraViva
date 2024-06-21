@@ -1,3 +1,4 @@
+// retiros
 document.addEventListener('DOMContentLoaded', () => {
 	const imgLightBox = document.querySelectorAll('.materialboxed');
 	M.Materialbox.init(imgLightBox, {
@@ -5,6 +6,32 @@ document.addEventListener('DOMContentLoaded', () => {
 		outDuration: 500
 	});
 });
+
+// nav
+document.addEventListener('DOMContentLoaded', function() {
+    const navHeight = document.querySelector('nav').offsetHeight;
+
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+
+            if (href.startsWith('#')) {
+                e.preventDefault();
+
+                const targetId = href.substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - navHeight,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
+});
+
 
 // textarea
     $(document).ready(function() {
