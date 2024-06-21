@@ -792,7 +792,7 @@ iframe {
 .card-title {
     color: #ffffff;
     flex-grow: 1;
-    margin: 0 1rem;
+    margin: 0 0rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -810,10 +810,14 @@ iframe {
 }
 
 .col-pdf {
-    margin-top: 0px !important;
+    margin-top: 10px !important;
     padding: 0 .7rem !important;
 }
 
+.titulo-pdf {
+    font-size: 16px !important;
+    font-family: "Roboto", sans-serif;
+}
 
 /*########################################## Propuestas ##########################################*/
 
@@ -980,6 +984,7 @@ iframe {
     
         .profile-image_1 {
         height: 200px;
+        background-image: linear-gradient(180deg, #7ac54e 0%, #ffffff 100%);
         }
     
         .profile-image_1::before {
@@ -993,6 +998,7 @@ iframe {
         
         .profile-image_2 {
         height: 200px;
+        background-image: linear-gradient(180deg, #7ac54e 0%, #ffffff 100%);
         }
         
         .profile-image_2::before {
@@ -1042,5 +1048,13 @@ iframe {
 
         .col {
             flex: 50%;
+        }
+
+        .card-eventos {
+            margin: 10px;
+        }
+
+        .rounded-start {
+            border-radius: 20px 20px 0px 0px !important;
         }
 }
