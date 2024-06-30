@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+    <!-- css AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="icon" href="imagen/logo_pagina.png" sizes="16x16">
 
@@ -47,10 +50,10 @@
     <nav>
         <div class="nav-wrapper">
             <img class="logo_tierraviva" src="imagen/iconofoto.png" alt="Logo">
-            <a href="#" class="brand-logo">TIERRA VIVA</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="index.html" class="brand-logo">TIERRA VIVA</a>
+            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="paginas/propuestas.html">Propuestas</a></li>
                 <li><a href="paginas/eventos.html">Eventos</a></li>
                 <li><a href="paginas/biblioteca.html">Biblioteca</a></li>
@@ -62,7 +65,7 @@
         </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Inicio</a></li>
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="paginas/propuestas.html">Propuestas</a></li>
         <li><a href="paginas/eventos.html">Eventos</a></li>
         <li><a href="paginas/biblioteca.html">Biblioteca</a></li>
@@ -88,8 +91,9 @@
             <h1 class="title">TIERRA VIVA</h1>    
         </div>
         <div>
-            <h2 class="bio">Somos una Cooperativa Cultural, un movimiento articulado por educadores, artistas, profesionales, terapeutas, y emprendedores conscientes. Nuestro servicio se centra en potenciar la calidad de vida de las personas con las que nos conectamos invitándonos a descubrir nuestra Riqueza interior y a cocrear la realidad que queremos vivir compartiendo nuestros Dones al mundo.</h2>
-            <h2 class="bio bio_margin">Tierra viva es un espacio fértil, es un recuerdo profundo y latente, es un sueño colectivo que esta despertando en cada corazón que intenta sembrar una humanidad mas amable y compasiva, una humanidad despierta.</h2>
+            <h2 class="bio">Somos una Red de Gestión Comunitaria, un movimiento articulado por educadores, artistas, profesionales, terapeutas, y emprendedores conscientes. Nuestro servicio se centra en potenciar la calidad de vida de las personas con las que nos conectamos invitándonos a descubrir nuestra Riqueza interior y a cocrear la realidad que queremos vivir compartiendo nuestros Dones al mundo.</h2>
+            <h2 class="bio">Tierra viva es un espacio fértil, es un recuerdo profundo y latente, es un sueño colectivo que esta despertando en cada corazón que intenta sembrar una humanidad mas amable y compasiva, una humanidad despierta.</h2>
+            <h2 class="bio bio_margin">¡Bienvenid@ a ser parte del Tejido Humano de Corazones y Cuerpos Habitados!</h2>
         </div>
     </section>
 
@@ -110,7 +114,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="1200">
                         <img src="imagen/Qué nos inspira.jpg" alt="Inspiration Image" class="imagenesfondo1 img-fluid">
                     </div>
                 </div>
@@ -120,7 +124,7 @@
         <section class="text-light p-4">
             <div class="container">
                 <div class="row row_vision">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="1200">
                         <img src="imagen/Visión y Propósito General.jpg" alt="Vision Image" class="imagenesfondo2 img-fluid">
                     </div>
                     <div class="col-md-6">
@@ -360,7 +364,7 @@
         </div>
         <div class="container">
             <div class="profile profile-left">
-                <div class="profile-image_1"></div>
+                <div class="profile-image_1" data-aos="fade-right" data-aos-duration="1500"></div>
                 <div class="profile-text">
                     <h2>Matías</h2>
                     <p>Matías es papá, escritor, cocinero, terapeuta integral, investigador del movimiento, facilitador de espacios recreativos, asesor de proyectos con corazon y comunicador.
@@ -369,7 +373,7 @@
                 </div>
             </div>
             <div class="profile profile-right">
-                <div class="profile-image_2"></div>
+                <div class="profile-image_2" data-aos="fade-left" data-aos-duration="1500"></div>
                 <div class="profile-text">
                     <h2>Araceli</h2>
                     <p>Araceli es mamá, cantautora, psicóloga, analista corporal bioenergética, bailarina e investigadora del movimiento.</p>
@@ -416,6 +420,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Import MaterializeJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
