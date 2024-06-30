@@ -92,3 +92,15 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Error al enviar el mensaje');
         });
     });
+
+// AOS mobile:
+
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.innerWidth <= 768) {
+            AOS.init({
+                disable: true
+            });
+        } else {
+            AOS.init();
+        }
+    });
