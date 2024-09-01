@@ -669,6 +669,47 @@ iframe {
     letter-spacing: 1.2px;
 }
 
+/*########################################## Propuestas ##########################################*/
+
+.Propuestas {
+    max-width: 100%;
+}
+
+.titulo-propuestas {
+    font-size: 1.5rem !important;
+    padding-bottom: 10px;
+}
+
+.flor-loto {
+    padding-left: 25%;
+    padding-right: 0%;
+}
+
+.flor-2 {
+    max-width: 50% !important;
+}
+
+.flor-4 {
+    max-width: 60% !important;
+}
+
+.flor-5 {
+    max-width: 75% !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.text-end {
+    text-align: right;
+}
+
 /*########################################## Eventos ##########################################*/
 
 .portada-eventos {
@@ -1049,6 +1090,13 @@ iframe {
             font-size: 14px;
             margin-bottom: 20px;
             text-align: center;
+        }
+
+        /* -----Propuestas----- */
+
+        .text-start,
+        .text-end {
+        text-align: center;
         }
 
         /* -----eventos----- */
