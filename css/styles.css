@@ -800,7 +800,7 @@ iframe {
 }
 
 .fondo-bibliotecas {
-    background-color: #E5EEE4;
+    background: linear-gradient(180deg, #d9e3d8 0%, #ffffff 100%);
 }
 
 .portada-biblioteca {
